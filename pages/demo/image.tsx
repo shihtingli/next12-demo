@@ -28,7 +28,7 @@ function ImagePage() {
             className="flex align-items-center justify-content-center bg-cyan-500 font-bold text-white border-round m-2"
             style={{ maxWidth: '700px' }}
           >
-            <Image src={Cat2} alt="Picture of the author" priority />
+            <Image src={Cat2} placeholder="blur" alt="Picture of the author" width={200} height={130} priority />
           </div>
           <div
             className="flex align-items-center justify-content-center bg-cyan-500 font-bold text-white border-round m-2"
